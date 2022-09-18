@@ -1,5 +1,6 @@
 body{
   background-color: #292b2c;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -18,8 +19,6 @@ h1{
   color: rgb(29, 29, 55);
 }
 
-footer{
-}
 
 .btn{
   background-color: rgb(40, 18, 52);
