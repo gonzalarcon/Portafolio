@@ -1,8 +1,27 @@
+body{
+  background-color: #292b2c;
+}
+
 img {
     width: 150px; 
     height:150px;
   }
 
 dl{
-    background-color: rgb(29, 29, 55);
+    background-color: rgb(40, 18, 52);
+}
+.card img{
+  object-fit: contain;
+}
+
+h1{
+  color: rgb(29, 29, 55);
+}
+
+footer{
+}
+
+.btn{
+  background-color: rgb(40, 18, 52);
+  color: azure;
 }

@@ -15,8 +15,8 @@
 
 <body>
     <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid bg-dark">
           <a class="navbar-brand" href="#">Gonzalo Alarcón</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,18 +45,31 @@
       </dl>
 
       <!-- Cards con los desafíos -->
-      <h1 class="text-center text-secondary text-decoration-underline">Desafíos</h1>
+      <h1 class="text-center text-light pb-2">Desafíos</h1>
       <div class="container text-center">
         <div class="row">
 
             <!-- Card -->
-            <div class="col-12">
+            <div class="col-sm-12 col-md-6 col-xl-6">    
                 <div class="card mb-4" style="width: 100%;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="assets/img/D4-Cuppon.png" class="card-img-top" alt="captura cuppon">
                     <div class="card-body">
-                     <h5 class="card-title">Card title</h5>
-                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                   <a href="#" class="btn btn-primary">Go somewhere</a>
+                     <h5 class="card-title">Desafío 4</h5>
+                   <p class="card-text">Construcción de una página responsiva a través de componentes bootstrap.</p>
+                   <a href="#" class="btn btn-secondary">Ir al repositorio</a>
+                  </div>
+                </div>  
+            </div>
+
+
+            <!-- Card -->
+            <div class="col-sm-12 col-md-6 col-xl-6">    
+                <div class="card mb-4" style="width: 100%;">
+                    <img src="assets/img/D5 Github.png" class="card-img-top" alt="captura github">
+                    <div class="card-body">
+                     <h5 class="card-title">Desafío 5</h5>
+                   <p class="card-text">Construcción de página web e inclusión a Git y Github mediante repositorios.</p>
+                   <a href="#" class="btn btn-secondary">Ir al repositorio</a>
                   </div>
                 </div>  
             </div>
@@ -64,11 +77,11 @@
           <!-- Card -->
             <div class="col-sm-12 col-md-6 col-xl-4">
                 <div class="card col-4" style="width: 100%;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="assets/img/D3 Iguana Page.png" class="card-img-top" alt="Captura_iguana">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Desafío 3</h5>
+                        <p class="card-text">Iguana Page, utilizando estilos CSS y posicionamiento.</p>
+                        <a href="#" class="btn btn-secondary">Ir al repositorio</a>
                     </div>
                 </div>
             </div>
@@ -80,7 +93,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Desafío 2</h5>
                         <p class="card-text">Consistente en la creación de un "Landing Page" utilizando estilos en CSS.</p>
-                        <a href="#" class="btn btn-primary" target="_blank">Ir al repositorio</a>
+                        <a href="#" class="btn btn-secondary" target="_blank">Ir al repositorio</a>
                     </div>
                 </div>
             </div> 
@@ -92,13 +105,38 @@
                  <div class="card-body">
                         <h5 class="card-title">Desafío 1</h5>
                        <p class="card-text">Consistente en la creación de una página web utilizando html.</p>
-                        <a href="https://github.com/gonzalarcon/desafio1-cv" class="btn btn-primary" target="_blank">Ir al repositorio</a>
+                        <a href="https://github.com/gonzalarcon/desafio1-cv" class="btn btn-secondary" target="_blank">Ir al repositorio</a>
                   </div>
               </div>
             </div>       
         </div>
       </div>
 
+    <!-- Sección Input -->
+  
+        <div class="container-fluid pt-2 pb-3 mt-3 bg-dark">
+            <h3 class="py-3 text-center text-light">
+             Contáctame
+             </h3>
+          <div class="mb-3 px-5">
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+          </div>
+             <div class="mb-3 px-5">
+               <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Correo Electrónico">
+             </div>
+           <div class="d-flex justify-content-center">
+           <button type="button" class="btn btn-secondary btn-sm">Enviar</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+    <footer>    
+     <p class="text-center pt-1 text-light">
+      © 2022 Gonzalo Alarcón. ADL (G27).
+     </p>
+    </footer>
+    
 
 
     <!-- JavaScript Bundle with Popper -->
